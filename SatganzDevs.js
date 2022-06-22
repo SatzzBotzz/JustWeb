@@ -480,11 +480,11 @@ View List Of Messages With ${prefix}listmsg`)
             }
 	    break
             case 'list': case 'p': case 'bg': case 'bro': case 'cuy': {
-            	txt=`Halo ${pushname}👋😷 n\ n\ Terimakasih Telah Menghubungi ${namatoko}
+            	txt=`Halo ${pushname}👋😷 n\ n\ Terimakasih Telah Menghubungi ${namatoko}`
             	let btn = [{
                                 urlButton: {
-                                    displayText: 'GitHub',
-                                    url: `${global.github}`
+                                    displayText: 'Github',
+                                    url: `${github}`
                                 }
                             }, {
                                 urlButton: {
@@ -498,8 +498,8 @@ View List Of Messages With ${prefix}listmsg`)
                                 }
                             }, {
                                 quickReplyButton: {
-                                    displayText: 'Info',
-                                    id: 'hepee'
+                                    displayText: 'Payment',
+                                    id: 'payment'
                                 }
                             }]
                       let txt = `「 ${namatoko}HERE 」\n\n${text}`
