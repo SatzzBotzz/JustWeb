@@ -480,7 +480,7 @@ View List Of Messages With ${prefix}listmsg`)
             }
 	    break
             case 'list': case 'p': case 'bg': case 'bro': case 'cuy': {
-            	txt=`Halo ${pushname}👋😷 n\ n\ Terimakasih Telah Menghubungi ${namatoko}`
+            	let txt = `Halo ${pushname}👋😷 n\ n\ Terimakasih Telah Menghubungi ${namatoko}`
             	let btn = [{
                                 urlButton: {
                                     displayText: 'Github',
