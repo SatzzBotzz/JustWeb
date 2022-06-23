@@ -516,48 +516,18 @@ let template = await generateWAMessageFromContent(m.chat, proto.Message.fromObje
                     footerText: `${global.footer}`,
                     listType: "SINGLE_SELECT",
                     sections: [{
-								"title": "Bot WhatApp",
+								"title": "List Product",
 								"rows": [
 									{
-										"title": `SewaBot`,
+										"title": `${global.produk1}`,
 										"description": ``,
 										"rowId": `${prefix}pepeg1`
-									},
-									{
-										"title": `Custom Bot`,
-										"description": ``,
-										"rowId": `${prefix}pepeg4`
-									},
-									{
-										"title": `Script Bot`,
-										"description": ``,
-										"rowId": `${prefix}pepeg7`
-									},
-									{
-										"title": `${produk8}`,
-										"description": ``,
-										"rowId": `${prefix}pepeg8`
-										}
+									}
 								]
 							},
 							{
-								"title": "Website",
+								"title": "Hot",
 								"rows": [
-									{
-										"title": `Personal Portfolio Web`,
-										"description": ``,
-										"rowId": `${prefix}pepeg5`
-									},
-									{
-										"title": `Website Store`,
-										"description": ``,
-										"rowId": `${prefix}pepeg6`
-										}
-								    ]
-							   },
-							   {
-										"title": "Other",
-										"rows": [
 									{
 										"title": `${global.produk2}`,
 										"description": ``,
@@ -567,6 +537,91 @@ let template = await generateWAMessageFromContent(m.chat, proto.Message.fromObje
 										"title": `${global.produk3}`,
 										"description": ``,
 										"rowId": `${prefix}pepeg3`
+										},
+									{
+										"title": `${global.produk4}`,
+										"description": ``,
+										"rowId": `${prefix}pepeg4`
+										},
+									{
+										"title": `${global.produk5}`,
+										"description": ``,
+										"rowId": `${prefix}pepeg5`
+									},
+									{
+										"title": `${global.produk6}`,
+										"description": ``,
+										"rowId": `${prefix}pepeg6`
+									},
+									{
+										"title": `${global.produk7}`,
+										"description": ``,
+										"rowId": `${prefix}pepeg7`
+									},
+									{
+									     "title": `${global.produk8}`,
+										"description": ``,
+										"rowId": `${prefix}pepeg8`
+									},
+									{
+									"title": `${global.produk9}`,
+										"description": ``,
+										"rowId": `${prefix}pepeg9`
+									},
+									{
+									"title": `${global.produk10}`,
+										"description": ``,
+										"rowId": `${prefix}pepeg10`
+									},
+									{
+									"title": `${global.produk11}`,
+										"description": ``,
+										"rowId": `${prefix}pepeg11`
+									},
+									{
+									"title": `${global.produk12}`,
+										"description": ``,
+										"rowId": `${prefix}pepeg12`
+									},
+									{
+									"title": `${global.produk13}`,
+										"description": ``,
+										"rowId": `${prefix}pepeg13`
+									},
+									{
+									"title": `${global.produk14}`,
+										"description": ``,
+										"rowId": `${prefix}pepeg14`
+									},
+									{
+									"title": `${global.produk15}`,
+										"description": ``,
+										"rowId": `${prefix}pepeg15`
+									},
+									{
+									"title": `${global.produk16}`,
+										"description": ``,
+										"rowId": `${prefix}pepeg16`
+									},
+									{
+									"title": `${global.produk17}`,
+										"description": ``,
+										"rowId": `${prefix}pepeg17`
+									},
+									{
+									"title": `${global.produk18}`,
+										"description": ``,
+										"rowId": `${prefix}pepeg18`
+									},
+									{
+									"title": `${global.produk19}`,
+										"description": ``,
+										"rowId": `${prefix}pepeg19`
+									},
+									{
+									"title": `${global.produk20}`,
+										"description": ``,
+										"rowId": `${prefix}pepeg20`
 									}
 								]
 							}
